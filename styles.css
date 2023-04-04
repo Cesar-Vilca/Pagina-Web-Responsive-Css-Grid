@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 section{
-    /*Si la seccion es mas grande que el contenido, pueda crecer de forma automatica*/
+    /*Si la seccion es mas grande que el contenido, pueda crecer de forma automatica.*/
     min-height: 100vh;
     box-sizing: border-box;
 }
