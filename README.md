@@ -1,23 +1,17 @@
-README
-Este repositorio contiene una página web simple desarrollada exclusivamente con archivos HTML y CSS.
-Este proyecto no usa ninguna biblioteca de diseño como Bootstrap u otro para el diseño, esta construido
-en base a CSS Vanilla para todo el diseño, la estructura de toda la página esta construida con CSS Grid,
-y también se adapta a distintos tamaños de pantalla (responsive).
-La finalidad de esta página es proporcionar una interfaz limpia y fácil de entender, el tema es una empresa de bienes raíces que necesita publicitar su marca. 
-A continuación, se proporciona información básica para que puedas explorar y entender la estructura del proyecto.
+# README
 
-|-- index.html
-|-- styles.css
-|-- imgs/
-    |-- (archivos de recursos, imágenes, etc.)
+Este repositorio contiene una página web simple desarrollada exclusivamente con archivos HTML y CSS. Este proyecto no utiliza ninguna biblioteca de diseño como Bootstrap u otras; está construido en base a CSS Vanilla para todo el diseño. La estructura de la página está desarrollada con CSS Grid, y también es adaptable a distintos tamaños de pantalla (responsive).
 
-Uso
-Clona el repositorio a tu máquina local:
+La finalidad de esta página es proporcionar una interfaz limpia y fácil de entender. El tema es una empresa de bienes raíces que necesita publicitar su marca.
+## Uso
 
-git clone https://github.com/tu-usuario/nombre-del-repo.git
+1. Clona el repositorio a tu máquina local:
 
-Abre el archivo index.html en tu navegador preferido.
+   ```bash
+   git clone https://github.com/tu-usuario/nombre-del-repo.git
 
-Explora la página web y comprueba cómo la estructura y el estilo se combinan para crear una experiencia simple pero efectiva.
+2.- Abre el archivo index.html en tu navegador preferido.
+
+3.- Explora la página web y comprueba cómo la estructura y el estilo se combinan para crear una experiencia simple pero efectiva.
 
 
