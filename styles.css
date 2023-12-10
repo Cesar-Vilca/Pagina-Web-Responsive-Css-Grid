@@ -65,19 +65,19 @@ section{
     margin-top: -50%; /*mitad de margin para projects*/
 }
 #menu .about-title .front{
-    background-image: url(imgs/window.jpg);
+    background-image: url(imgs/aboutus.jpg);
  
 }
 #menu .projects-title .front{
-    background-image: url(imgs/moon.jpg);
+    background-image: url(imgs/properties.jpg);
 
 }
 #menu .posts-title .front{
-    background-image: url(imgs/city.jpg);
+    background-image: url(imgs/houses/house1.jpg);
 
 }
 #menu .contact-title .front{
-    background-image: url(imgs/gta.jpg);
+    background-image: url(imgs/contactus.jpg);
 
 }
 
@@ -95,7 +95,7 @@ section{
     grid-template-rows: repeat(2,1fr);
     gap:20px;
     padding: 20px;
-    background-color: #222;
+    background-color: #000000;
     
 }
 
@@ -105,7 +105,7 @@ section{
     border-radius: 10px;
     padding: 40px;
     box-sizing: border-box;
-    background-image: linear-gradient(180deg, #534a4c 0, #494546 25%, #3f3f3f 50%, #353938 75%, #2c3431 100%);
+    background-color: rgb(26, 25, 25);
     align-items: center;
     justify-items: center;
     text-align: center;
@@ -113,7 +113,7 @@ section{
 
 }
 #about .title img{
-    width: 70%;
+    width: 40%;
 }
 #about .title-1{
   grid-column: 1/2;
@@ -168,7 +168,6 @@ section{
   #projects .title a{
     display: grid;
     height: 100%;
-
   }
   
   .main-photo {
@@ -176,7 +175,7 @@ section{
      padding:20px;
      color:white;
      font-size: 25px;
-     background-image: url(imgs/rain.jpg);
+     background-image: url(imgs/houses/house9.jpg);
      }
      .main-photo h2, .main-photo div{
         background-color: black;
@@ -188,39 +187,39 @@ section{
      }
      
   
-  .photo-3 { grid-area: photo-3; background-image: url(imgs/gta.jpg);}
+  .photo-3 { grid-area: photo-3; background-image: url(imgs/houses/house1.jpg);}
   
-  .photo-4 { grid-area: photo-4;background-image: url(imgs/rain.jpg); }
+  .photo-4 { grid-area: photo-4;background-image: url(imgs/houses/house2.jpg); }
   
-  .photo-5 { grid-area: photo-5;background-image: url(imgs/rain.jpg); }
+  .photo-5 { grid-area: photo-5;background-image: url(imgs/houses/house3.jpg); }
   
-  .photo-2 { grid-area: photo-2;background-image: url(imgs/city.jpg); }
+  .photo-2 { grid-area: photo-2;background-image: url(imgs/houses/house4.jpg); }
   
-  .photo-17 { grid-area: photo-17;background-image: url(imgs/moon.jpg);  }
+  .photo-17 { grid-area: photo-17;background-image: url(imgs/houses/house5.jpg);  }
   
-  .photo-7 { grid-area: photo-7;background-image: url(imgs/red-park.jpg);  }
+  .photo-7 { grid-area: photo-7;background-image: url(imgs/houses/house6.jpg);  }
   
-  .photo-6 { grid-area: photo-6;background-image: url(imgs/goblin.jpg);  }
+  .photo-6 { grid-area: photo-6;background-image: url(imgs/houses/house7.jpg);  }
   
   .photo-9 { grid-area: photo-9;
-    background-image: url(imgs/cascada.jpg); }
+    background-image: url(imgs/houses/house8.jpg); }
   
-  .photo-10 { grid-area: photo-10; background-image: url(imgs/night-city.jpg);}
+  .photo-10 { grid-area: photo-10; background-image: url(imgs/houses/house10.jpg);}
   
   .photo-13 { grid-area: photo-13;
-    background-image: url(imgs/cascada.jpg); }
+    background-image: url(imgs/houses/house9.jpg); }
   
-  .photo-14 { grid-area: photo-14;background-image: url(imgs/darling.png); }
+  .photo-14 { grid-area: photo-14;background-image: url(imgs/houses/house11.jpg); }
   
-  .photo-15 { grid-area: photo-15;background-image: url(imgs/kirito.png); }
+  .photo-15 { grid-area: photo-15;background-image: url(imgs/houses/house12.jpg); }
   
-  .photo-16 { grid-area: photo-16;background-image: url(imgs/night-city.jpg); }
+  .photo-16 { grid-area: photo-16;background-image: url(imgs/houses/house3.jpg); }
   
-  .photo-11 { grid-area: photo-11;background-image: url(imgs/darling.png); }
+  .photo-11 { grid-area: photo-11;background-image: url(imgs/houses/house6.jpg); }
   
-  .photo-12 { grid-area: photo-12;background-image: url(imgs/rain.jpg);  }
+  .photo-12 { grid-area: photo-12;background-image: url(imgs/houses/house8.jpg);  }
   
-  .photo-8 { grid-area: photo-8; background-image: url(imgs/window.jpg);}
+  .photo-8 { grid-area: photo-8; background-image: url(imgs/houses/house1.jpg);}
   
 
 
@@ -262,27 +261,32 @@ section{
 
 }
 #posts .post.post-1{
-    background-image: url(imgs/red-park.jpg);
+    background-image: url(imgs/houses/house1.jpg);
 
 }
 #posts .post.post-2{
-    background-image: url(imgs/moon.jpg);
+    background-image: url(imgs/houses/house2.jpg);
+
     
 }
 #posts .post.post-3{
-    background-image: url(imgs/night-city.jpg);
+    background-image: url(imgs/houses/house3.jpg);
+
     
 }
 #posts .post.post-4{
-    background-image: url(imgs/goblin.jpg);
+    background-image: url(imgs/houses/house4.jpg);
+
     
 }
 #posts .post.post-5{
-    background-image: url(imgs/cascada.jpg);
+    background-image: url(imgs/houses/house5.jpg);
+
     
 }
 #posts .post.post-6{
-    background-image: url(imgs/rain.jpg);
+    background-image: url(imgs/houses/house6.jpg);
+
     
 }
 
@@ -301,7 +305,7 @@ textarea{
 }
 
 #contact form{
-    padding: 20px;
+    padding: 200px;
     color:white;
     display: grid;
     gap:15px;
